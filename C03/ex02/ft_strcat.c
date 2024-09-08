@@ -1,14 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_strcat.c                                        :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: yzn <yzn@student.42.fr>                    +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/09/08 14:50:06 by yzn               #+#    #+#             */
-/*   Updated: 2024/09/08 15:18:49 by yzn              ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
 
 #include <unistd.h>
 #include <stdio.h>
@@ -34,8 +23,8 @@ char	*ft_strcat(char *dest, char *src)
 /* 
 int	main(void)
 {
-	char	dest[50] = "Hello ";
-	char	src[] = "World";
+	char	dest[50] = "I'm ";
+	char	src[] = "Dope!";
 
 	ft_strcat(dest, src);
 	printf("%s\n",dest);
