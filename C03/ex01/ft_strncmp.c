@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strncmp.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: yasalame <yasalame@student.42.fr>          +#+  +:+       +#+        */
+/*   By: yzn <yzn@student.42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/05 10:45:49 by yasalame          #+#    #+#             */
-/*   Updated: 2024/09/05 12:02:30 by yasalame         ###   ########.fr       */
+/*   Updated: 2024/09/08 14:34:05 by yzn              ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,8 +23,6 @@ int	ft_strncmp(char *s1, char *s2, unsigned int n)
 			return (s1[i] - s2[i]);
 		i++;
 	}
-	if (i < n)
-		return (s1[i] - s2[i]);
 	return (0);
 }
 /* 
