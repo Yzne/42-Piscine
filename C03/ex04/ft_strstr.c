@@ -20,7 +20,7 @@ char	*ft_strstr(char *str, char *to_find)
 			return (&str[i]);
 		i++;
 	}
-	return ('\0');
+	return (NULL);
 }
 /* 
 int	main(void)
