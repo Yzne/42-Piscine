@@ -12,6 +12,7 @@ char	*ft_strstr(char *str, char *to_find)
 		return (str);
 	while (str[i] != '\0')
 	{
+		j = 0;
 		while (to_find[j] != '\0' && str[i + j] == to_find[j])
 		{
 			j++;
@@ -25,7 +26,7 @@ char	*ft_strstr(char *str, char *to_find)
 /* 
 int	main(void)
 {
-	char str[50] = "I'm dope and I know it!";
+	char str[50] = "I'm  and I know it!";
 	char to_find[6] = "dope";
 
 	char *yo = ft_strstr(str, to_find);
